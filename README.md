@@ -1,3 +1,3 @@
 # Visualizador de conflictos
 Visualizador de conflictividad social en el Perú  
-Creadora: Marcia León Eulogio.
+**Creadora:** Marcia León Eulogio.
