@@ -47,14 +47,14 @@ mapa_idh <- mapa_data %>%
 
 # --- INTERFAZ (UI) ---
 ui <- fluidPage(
-  titlePanel("🗺️ Visualizador de Conflictos Sociales e IDH - Defensoría del Pueblo"),
+  titlePanel("🗺️ Visualizador de Conflicto Sociales Perú"),
   
   fluidRow(
     column(
       width = 12,
       div(
         style = "background-color:#f8f9fa; border-radius:10px; padding:15px; margin-bottom:15px; text-align:center; box-shadow:0 1px 3px rgba(0,0,0,0.1);",
-        h4("🔢 Total de conflictos visualizados"),
+        h4("Total de conflictos visualizados"),
         h2(textOutput("total_conflictos"), style = "color:#2c3e50; font-weight:bold;")
       )
     )
